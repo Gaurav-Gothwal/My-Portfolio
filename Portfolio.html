@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: #054060;
+            color: #fff;
+            padding: 20px;
+        }
+
+        .logo {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        .nav-links li {
+            margin-right: 20px;
+        }
+
+        .nav-links li a {
+            padding: 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Hero Section */
+        header {
+            background-color: #f2f2f2;
+            padding: 50px;
+            text-align: center;
+        }
+
+        /* About Me Section */
+        #about {
+            padding: 50px;
+            text-align: center;
+        }
+
+        /* Skills Section */
+        #skills {
+            padding: 50px;
+            background-color: #c2b4b4;
+            text-align: center;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        /* Projects Section */
+        #projects {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project a {
+            display: block;
+            margin-top: 10px;
+        }
+
+        /* Contact Section */
+        #contact {
+            background-color: rgb(244, 226, 249);
+            padding: 50px;
+            text-align: center;
+        }
+
+        #contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #contact-form label {
+            margin-bottom: 10px;
+        }
+
+        #contact-form input,
+        #contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        #contact-form button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Gaurav's Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>A showcase of my skills, projects, and achievements</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>Greetings! I am Gaurav Meena, a dedicated and enthusiastic individual currently pursuing a B.Tech degree
+                in Information Technology from the esteemed NIT Srinagar. With a passion for technology and innovation,
+                I am actively engaged in honing my skills and knowledge in various domains. My skill set encompasses
+                proficiency in programming languages such as C++ and Java, as well as expertise in Web(frontend)
+                development.
+                Moreover, I possess a sound understanding of certain aspects of backend development, adding to my
+                versatile skill repertoire. My journey in the world of technology continues to evolve, driven by a
+                commitment to learning and a desire to contribute meaningfully to the ever-changing landscape of
+                information technology.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+           <li><h4>Languages : </h4></li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>C++</li>
+            <li>MySql</li>
+            <br>
+            <li><h4>Cloud/Databases :</h4></li>
+            <li>MongoDB</li>
+            <li>MySql</li>
+            <br>
+            <li><h4>Web Dev Tools :</h4></li>
+            <li>Nodejs</li>
+            <li>VScode</li>
+            <li>Git, GitHub</li>
+            <br>
+            <li><h4>Area of Interset : </h4></li>
+            <li>Web development</li>
+            <li>Blockchain development</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Internship</h2>
+        <div class="project">
+            <h3>Biomedical Instumentation</h3>
+            <h4>Inter at IIT Mandi</h4>
+            <p>During my internship at IIT Mandi iHub HCL Foundation, I had the privilege of delving into the
+                captivating realm of biomedical instrumentation, a field that blends technology with healthcare
+                innovation. My primary focus was on devising methodologies to enhance the affordability and accuracy of
+                ECG (Electrocardiogram) devices.
+
+                With a goal to make ECG technology more accessible, I embarked on a journey to reduce the cost while
+                maintaining or even enhancing result accuracy. To achieve this, I employed a multidimensional approach.
+                Leveraging my technical expertise, I harnessed the power of cutting-edge tools and devices.
+
+                To measure and analyze heart rate variability, I incorporated the use of the Polar H10 chest belt and
+                the emWave device. These instruments provided valuable data points that were crucial in understanding
+                cardiac patterns and deviations. I further integrated Arduino sensors to capture physiological signals,
+                expanding the scope of my data collection and analysis.
+
+                In my pursuit of refining ECG accuracy, I utilized advanced software like Kubios. This software enabled
+                me to process and interpret the collected data, extracting insights that would contribute to the
+                enhancement of the overall accuracy of the ECG devices. By analyzing the data with precision, I aimed to
+                minimize errors and anomalies that could potentially affect the reliability of the results.
+
+                Throughout this engaging project, I meticulously collected and analyzed over 20 samples from various
+                individuals. These samples formed the backbone of my research, offering a comprehensive view of the
+                effectiveness of the methods employed. Through rigorous testing, I sought to validate the impact of the
+                techniques on both cost reduction and result accuracy.
+
+                Ultimately, my internship experience at IIT Mandi iHub HCL Foundation provided me with invaluable
+                insights into the convergence of technology and healthcare. The project underscored the significance of
+                interdisciplinary collaboration in addressing real-world challenges, and it reinforced my commitment to
+                creating meaningful solutions that can impact lives positively.</p>
+            <a href="project-demo.html">Live Demo</a>
+            <a href="project-repo.html">GitHub Repository</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Frontend Project made by Gaurav</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
